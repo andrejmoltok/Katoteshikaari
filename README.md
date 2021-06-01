@@ -4,7 +4,7 @@ There are 5 final problems to be solved on FCC in the category of ***"Responsive
 
 *Work in progress...*
 
-1. [Tribute Page](https://github.com/andrejmoltok/MyFCC_FinalProblemSolutions/tree/main/1.%20Tribute%20Page) - CHECK ![check](https://github.com/andrejmoltok/MyFCC_FinalProblemSolutions/blob/main/ico/checkmark-16_png.png)
+1. [Tribute Page](https://github.com/andrejmoltok/MyFCC_FinalProblemSolutions/tree/main/1.%20Tribute%20Page) - CHECK ![check](https://github.com/andrejmoltok/MyFCC_FinalProblemSolutions/blob/main/ico/checkmark-16_png.png) - [CodePen.io Link](https://codepen.io/arskeliss/pen/QWpjRdB)
 2. Survey Form - TBA
 3. Product Landing Page - TBA
 4. Technical Documentation Page - TBA
