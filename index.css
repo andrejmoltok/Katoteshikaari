@@ -1,0 +1,61 @@
+body {
+  background-color: silver;
+  font-family: 'Girassol', cursive;
+}
+
+#title {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+
+#img-div {
+  max-width: 650px;
+  margin: auto;
+}
+
+#image {
+  display: block;
+  width: 650px;
+  max-width: 100%;
+  height: auto;
+}
+
+#cap-style {
+  text-align: center;
+  color: #3c3c3c;
+}
+
+#tribute-info {
+  display: block;
+  width: 650px;
+  max-width: 100%;
+  margin: auto;
+  color: #3c3c3c;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+time {
+  font-weight: bold;
+}
+
+#tribute-image {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+li {
+  padding: 15px 0px 15px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #910edd;
+}
