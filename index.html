@@ -1,0 +1,87 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FCC Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div>
+  <h1 id="title">FreeCodeCamp Survey Form</h1>
+  <p id="description">How much time do you spend learning and what are you learning?</p>
+</div>
+
+<div>
+  <form id="survey-form" action="POST">
+    
+    <label for="name" id="name-label">Full Name: </label>
+    <input type="text" id="name" placeholder="Enter your full name here" name="name" required>
+    
+    <label for="email" id="email-label">Email: </label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address here" required>
+    
+    <label for="dropdown" id="dropdown">Which curriculum do you spend time learning?</label>
+    <select name="curriculum" id="dropdown" required>
+      <option value="">--Please choose a curriculum--</option>
+      <option value="rwd">Responsive Web Design</option>
+      <option value="jads">Javascript Algorithms and Data Structures</option>
+      <option value="fdl">Frontend Development Libraries</option>
+      <option value="dv">Data Visualisation</option>
+      <option value="apims">APIs and MicroServices</option>
+      <option value="qa">Quality Assurance</option>
+      <option value="scp">Scientific Computing with Python</option>
+      <option value="dap">Data Analysis with Python</option>
+      <option value="is">Information Security</option>
+      <option value="mlp">Machine Learning with Python</option>
+    </select>
+    
+    <label for="number" id="number-label">Select how many hours a day do you spend learning (1-12):</label>
+    <input type="number" name="number" id="number" min="1" max="12" placeholder="Enter hours learned here" required>
+    
+    <p>Which time of day do you prefer learning?<br>Select one of the below:</p>
+    
+    <div>
+      
+      <label for="timeofday" id="timeofday">Morning</label>
+      <input type="radio" id="morning" name="timeofday" value="morning">
+      
+      <label for="timeofday" id="timeofday">Midday</label>
+      <input type="radio" id="midday" name="timeofday" value="midday">
+      
+      <label for="timeofday" id="timeofday">Afternoon</label>
+      <input type="radio" id="afternoon" name="timeofday" value="afternoon">
+      
+      <label for="timeofday" id="timeofday">Evening</label>
+      <input type="radio" id="evening" name="timeofday" value="evening">
+      
+    </div>
+    
+    <br>
+    
+    <p>Do you listen to FCC Radio while learning and practicing?</p>
+    
+    <div>
+      <label for="listen">Yes</label>
+      <input type="checkbox" id="listen" name="listen" value="yes">
+    </div>
+    
+    <div>
+      <label for="listen">No</label>
+      <input type="checkbox" id="listen" name="listen" value="no">
+    </div>
+    
+    <br>
+    
+    <div>
+      <label for="comments">Please leave some comments if you like:</label>
+      <textarea id="comments" name="comments" rows="10" cols="50">         </textarea>
+    </div>
+      
+    <br>
+    
+    <button type="submit" id="submit">Submit</button>
+    
+  </form>
+</div>
+</body>
+</html>

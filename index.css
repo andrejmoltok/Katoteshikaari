@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+body {
+  background-color: #581975;
+}
+
+#title {
+  max-width: 100%;
+  width: 650px;
+  margin: 50px auto auto auto;
+  text-align: center;
+  font-family: 'Inria Serif', serif;
+  color: #88A5E2;
+}
+
+#description {
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+input,select,p {
+  display: block;
+  max-width: 100%;
+  width: 450px;
+  margin: auto auto;
+  float: top;
+}
+
+label {
+  display: block;
+  max-width: 100%;
+  width: 450px;
+  margin: auto auto;
+  float: top;
+  padding: 10px 0px 0px 0px;
+  text-align: left;
+  font-family: "Inria Serif";
+  font-weight: bold;
+}
+
+input {
+  padding:5px 5px 5px 5px;
+  font-family: "Inria Serif";
+  font-weight: bold;
+  font-style: oblique;
+}
+
+select,option {
+  font-family: "Inria Serif";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Inria Serif";
+  font-weight: bold;
+  margin: auto auto;
+  padding: 10px 10px 10px 10px;
+}
+
+textarea {
+  display: block;
+  max-width: 100%;
+  width: 450px;
+  margin: auto auto;
+}
+
+button {
+  display: block;
+  max-width: 100%;
+  width: 80px;
+  margin: auto auto;
+  padding: 5px 10px 5px 10px;
+  font-family: "Inria Serif";
+  font-weight: bold;
+}
+
+@media screen and (max-width: 476px){
+  label, input, select, textarea {
+    display: block;
+    max-width: 100%;
+    width: 350px;
+    margin: auto auto;
+    float: top;
+  }
+}
+
+@media screen and (max-width: 381px){
+  label, input, select, textarea {
+    display: block;
+    max-width: 100%;
+    width: 250px;
+    margin: auto auto;
+    float: top;
+  }
+}
