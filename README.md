@@ -1,4 +1,4 @@
-# MyFCC_FinalProblemSolutions
+# MyFCC_PesponsiveWebDesignFinalProblemSolutions
 
 There are 5 final problems to be solved on FCC in the category of ***"Responsive Web Design"***, these solutions -mine- can be found here.
 
