@@ -1,4 +1,4 @@
-# MyFCC_PesponsiveWebDesignFinalProblemSolutions
+# MyFCC_ResponsiveWebDesignFinalProblemSolutions
 
 There are 5 final problems to be solved on FCC in the category of ***"Responsive Web Design"***, these solutions -mine- can be found here.
 
@@ -9,3 +9,6 @@ There are 5 final problems to be solved on FCC in the category of ***"Responsive
 3. Product Landing Page - TBA
 4. Technical Documentation Page - TBA
 5. Personal Portfolio Webpage - TBA
+
+
+You can find me online on Twitter [@AndrejMoltok](https://twitter.com/AndrejMoltok), if you any tips or ideas to share, please do so!
