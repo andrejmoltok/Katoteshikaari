@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+#header {
+	text-align: center;
+}
+
+#desc > h2 {
+	color: red;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	border: 2px solid #090bab;
+	background-color: #cacaee;
+	color: #090bab;
+	padding: 3px 3px 3px 3px;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 2px solid #090bab;
+	background-color: #090bab;
+	color: #cacaee;
+	padding: 3px 3px 3px 3px;
+}
+
+#list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#list1 {
+	display: inline-flex;
+	width: 850px;
+	padding: 5px 5px 5px 5px;
+	justify-content: space-evenly;
+}
+
+#list2 {
+	display: inline-flex;
+	width: 850px;
+	padding: 5px 5px 5px 5px;
+	justify-content: space-evenly;
+}
+
+#list3 {
+	display: inline-flex;
+	width: 850px;
+	padding: 5px 5px 5px 5px;
+	justify-content: space-evenly;
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#linkser {
+	border: none;
+	background-color: white;
+	color: white;
+}
