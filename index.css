@@ -25,31 +25,26 @@ a:hover {
 	padding: 3px 3px 3px 3px;
 }
 
-#list {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+#mystyle {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
 }
 
-#list1 {
-	display: inline-flex;
-	width: 850px;
-	padding: 5px 5px 5px 5px;
-	justify-content: space-evenly;
+#one {
+	width: 650px;
+	height: 40px;
 }
 
-#list2 {
-	display: inline-flex;
-	width: 850px;
-	padding: 5px 5px 5px 5px;
-	justify-content: space-evenly;
+#two {
+	width: 650px;
+	height: 40px;
 }
 
-#list3 {
-	display: inline-flex;
-	width: 850px;
-	padding: 5px 5px 5px 5px;
-	justify-content: space-evenly;
+#three {
+	width: 650px;
+	height: 40px;
 }
 
 .links{
