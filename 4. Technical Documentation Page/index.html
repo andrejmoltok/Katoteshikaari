@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FCC - HTML Technical Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<nav id="navbar">
+    <header>HTML Documentation</header>
+  <ul id="list">
+    <li><a href="#introduction" class="nav-link">Introduction</a></li>
+    <li><a href="#base_elements" class="nav-link">Base elements</a></li>
+    <li><a href="#semantics" class="nav-link">Semantics</a></li>
+    <li><a href="#forms" class="nav-link">Forms</a></li>
+    <li><a href="#lists" class="nav-link">Lists</a></li>
+    <li><a href="#tables" class="nav-link">Tables</a></li>
+    <li><a href="#conclusion" class="nav-link">Conclusion</a></li>
+    </ul>
+</nav>
+    
+<main id="main-doc">
+  <section class="main-section" id="introduction">
+    <header>Introduction</header>
+    <article>
+    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+    <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+    <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements".</p>
+    <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png" alt="Anatomy of an HTML element">
+      <p>Image Source: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">MDN</a></p>
+<p>An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by &lt; and &gt;.  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture.</p>
+    </article>
+  </section>
+  <section class="main-section" id="base_elements">
+    <header>Base elements</header>
+    <article>
+    <p>There are 6 base elements within the HTML code, which are the following:</p>
+    <ol>
+      <li>&lt;html&gt;</li>
+      <li>&lt;head&gt;</li>
+      <ol>
+        <li>&lt;meta&gt;</li>
+        <li>&lt;link&gt;</li>
+        <li>&lt;script&gt;</li>
+      </ol>
+      <li>&lt;body&gt;</li>
+      </ol>
+    <p>These tags form the basic layout of a simple webpage, in the order of appearance in the list above.</p>
+    <pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;link rel="stylesheet" href="example.css"&gt;
+        &lt;script src="example.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!-- here comes your code --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      <p>This what a base of webpage's code looks like.</p>
+    </article>
+  </section>
+  <section class="main-section" id="semantics"><header>Semantics</header>
+    <article>
+      Everything that follows here comes obligatorily into the <code>&lt;body&gt;</code> element.
+      <div class="container">
+        <div>
+          <ol>
+            <li>&lt;article&gt;</li>
+            <li>&lt;aside&gt;</li>
+            <li>&lt;figcaption&gt;</li>
+            <li>&lt;figure&gt;</li>
+            <li>&lt;footer&gt;</li>
+          </ol>
+        </div>
+        <div>
+          <ol>
+            <li>&lt;header&gt;</li>
+            <li>&lt;main&gt;</li>
+            <li>&lt;mark&gt;</li>
+            <li>&lt;nav&gt;</li>
+            <li>&lt;section&gt;</li>
+            <li>&lt;time&gt;</li>
+          </ol>
+        </div>
+      </div>
+      <p>Let's see an example of the amalgam of these tags.</p>
+      <pre><code>&lt;main&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;nav&gt;&lt;!-- example navigation menu--&gt;&lt;/nav&gt;
+    &lt;/header&gt; 
+    &lt;section&gt;
+      &lt;p&gt;&lt;mark&gt;Example&lt;/mark&gt; text.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;footer&gt;
+      &lt;p&gt;Example footer &copy; 
+      &lt;time datetime="2021-06-15T21:13"&gt;2021
+      &lt;/time&gt;
+      &lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;aside&gt;
+    &lt;section&gt;
+      &lt;p&gt;Example text.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;figure&gt;
+      &lt;img src="example.png" alt="alternative text"&gt;
+      &lt;figcaption&gt;Descriptive text about the figure.
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/aside&gt;</code></pre>
+      <p>There is an order of appearance of the most important tags, as follows &lt;main&gt;,&lt;aside&gt;,&lt;article&gt;,&lt;header&gt;,&lt;nav&gt;,&lt;section&gt;,&lt;footer&gt;.</p>
+    </article>
+    </section>
+  <section class="main-section" id="forms"><header>Forms</header>
+    <p>There are a many elements which occur in a <code>&lt;form&gt;</code> field, but let's just name a few that appear most frequently.</p>
+    <ol>
+      <li>&lt;button&gt;</li>
+      <li>&lt;fieldset&gt;</li>
+      <li>&lt;form&gt;</li>
+      <li>&lt;input&gt;</li>
+      <li>&lt;legend&gt;</li>
+      <li>&lt;textarea&gt;</li>
+    </ol>
+    <p>Now let's take a look at an example subscription form.</p>
+    <pre><code>&lt;form action="/subscribe" method="POST"&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Subscribe for more&lt;/legend&gt;
+      &lt;input type="email" name="email"&gt;
+      &lt;button&gt;Subscribe&lt;/button&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
+  </section>
+  <section class="main-section" id="lists"><header>Lists</header>
+    <p>Lists make our life easier when it comes to ordering our tasks, just as in this case. We have <em>ordered list</em>, <em>unordered list</em>, these two have their own <em>list-items</em> and there is <em>definition list</em> for more advanced uses.</p>
+    <div class="container">
+      <div>
+        <ul>
+          <li>&lt;dd&gt;</li>
+          <li>&lt;dl&gt;</li>
+          <li>&lt;dt&gt;</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>&lt;li&gt;</li>
+          <li>&lt;ol&gt;</li>
+          <li>&lt;ul&gt;</li>
+        </ul>
+      </div>
+    </div>
+    <p>Let's see some examples.</p>
+    <pre><code>&lt;ol&gt; &lt;!-- ordered list, with numbered items--&gt;
+   &lt;li&gt;Item 1&lt;/li&gt;
+   &lt;li&gt;Item 2&lt;/li&gt;
+   &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt; &lt;!-- unordered list, with bulleted/dotted items--&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Web&lt;/dt&gt;
+  &lt;dd&gt;The part of the Internet
+  that contains websites and web pages&lt;/dd&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;A markup language for creating web pages&lt;/dd&gt;
+  &lt;dt&gt;CSS&lt;/dt&gt;
+  &lt;dd&gt;A technology to make HTML look better&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+  </section>
+  <section class="main-section" id="tables"><header>Tables</header>
+    <p>The &lt;table&gt; HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</p>
+    <div class="container">
+      <div>
+        <ul>
+          <li>&lt;caption&gt;</li>
+          <li>&lt;table&gt;</li>
+          <li>&lt;tbody&gt;</li>
+          <li>&lt;td&gt;</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>&lt;tfoot&gt;</li>
+          <li>&lt;th&gt;</li>
+          <li>&lt;thead&gt;</li>
+          <li>&lt;tr&gt;</li>
+        </ul>
+      </div>
+    </div>
+    <p>Let's see a pleasent example of a table.</p>
+    <pre><code>&lt;table&gt;
+  &lt;caption&gt;The Beatles&lt;/caption&gt;
+  &lt;tr&gt;
+    &lt;td&gt;John Lennon&lt;/td&gt;
+    &lt;td&gt;Rhythm Guitar&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Paul McCartney&lt;/td&gt;
+    &lt;td&gt;Bass&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;George Harrison&lt;/td&gt;
+    &lt;td&gt;Lead Guitar&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ringo Starr&lt;/td&gt;
+    &lt;td&gt;Drums&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    <p></p>  
+</section>
+<section class="main-section" id="conclusion"><header>Conclusion</header>
+    <p>These tags, which you have seen are the most commonly used tags. Of course, there are severa more that are in use, but in different situations and use-cases.
+  You are encouraged to dive deep into the references found on the internet and learna about the rest of the tags as well.</p>
+  <p>Examples and code references are taken from <a href="https://htmlreference.io/" target="_blank">HTML Reference.io</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN</a></p>
+  </section>
+  <footer>Created by <a href="https://www.github.com/andrejmoltok" target="_blank">Arskeliss</a> &copy; 2021</footer>
+</main>
+</body>
+</html>
