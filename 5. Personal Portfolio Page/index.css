@@ -124,7 +124,7 @@ a {
   padding-top: 40px;
 }
 
-.project-tile1 {
+.project-tile {
   margin: 20px 0px 20px 0px;
   width: 355px;
   height: 250px;
@@ -133,7 +133,7 @@ a {
   letter-spacing: 0.3em;
 }
 
-.project-tile1 > img {
+.project-tile > img {
   margin: 0 0;
   width: 350px;
   height: 200px;
@@ -211,6 +211,12 @@ a {
   color: #fff;
   border-radius: 50%;
   padding: 5px 5px 5px 5px;
+}
+
+#footer {
+  text-align: right;
+  margin: auto auto;
+  background-color: rgba(17,51,85,1);
 }
 
 @media all and (max-width: 937px){
