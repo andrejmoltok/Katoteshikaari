@@ -110,7 +110,7 @@ a {
 #projects {
   text-align: center;
   margin: auto auto;
-  height: 140vh;
+  height: 800px;
   padding-top: 100px;
   font-weight: 600;
   background-color: rgba(17,51,85,1);
@@ -233,7 +233,7 @@ a {
 
 @media all and (max-width: 726px){
   #projects {
-    height: 220vh;
+    height: 1400px;
   }
 }
 
