@@ -243,15 +243,21 @@ a {
   background-color: rgba(17,51,85,1);
 }
 
+@media all and (max-width: 1082px){
+  #projects {
+    height: 1200px;
+  }
+}
+
 @media all and (max-width: 937px){
   #welcome-section{
     padding-top: 210px;
   }
-  li {
-    padding-top: 20px;
-  }
   #contactme {
     height: 400px;
+  }
+  #aboutme {
+    height: 200%;
   }
 }
 
@@ -262,13 +268,19 @@ a {
   #contactme {
     height: 500px;
   }
+   #aboutme {
+    height: 200%;
+  }
+}
+
+@media all and (max-width: 560px){
+  #aboutme {
+    height: 200%;
+  }
 }
 
 @media all and (max-width: 520px){
   #welcome-section{
     padding-top: 240px;
-  }
-  li {
-    padding-top: 10px;
   }
 }
