@@ -234,11 +234,17 @@ a {
   li {
     padding-top: 20px;
   }
+  #contactme {
+    height: 400px;
+  }
 }
 
 @media all and (max-width: 726px){
   #projects {
     height: 1400px;
+  }
+  #contactme {
+    height: 500px;
   }
 }
 
