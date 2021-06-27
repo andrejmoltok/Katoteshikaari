@@ -188,6 +188,22 @@ a {
   object-fit: contain;  
 }
 
+.project-tile5 {
+  margin: 20px 0px 20px 0px;
+  width: 355px;
+  height: 250px;
+  border: 2px dashed rgba(17,51,85,1);
+  background-color: #fff;
+  letter-spacing: 0.3em;
+}
+
+.project-tile5 > img {
+  margin: 0 0;
+  width: 350px;
+  height: 200px;
+  object-fit: contain;  
+}
+
 #contactme {
   text-align: center;
   margin: auto auto;
