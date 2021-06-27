@@ -107,10 +107,10 @@ a {
   color: darkblue;
 }
 
-#fccprojects {
+#projects {
   text-align: center;
   margin: auto auto;
-  height: 140vh;
+  height: 800px;
   padding-top: 100px;
   font-weight: 600;
   background-color: rgba(17,51,85,1);
@@ -200,9 +200,10 @@ a {
 .profile {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 30px;
+  padding: 30px 0px;
 }
 
 #profile-link {
@@ -210,7 +211,11 @@ a {
   background-color: rgba(17,51,85,1);
   color: #fff;
   border-radius: 50%;
-  padding: 5px 5px 5px 5px;
+  padding: 15px 15px 15px 15px;
+}
+
+.pl {
+  padding: 20px 0px;
 }
 
 #footer {
@@ -229,11 +234,17 @@ a {
   li {
     padding-top: 20px;
   }
+  #contactme {
+    height: 400px;
+  }
 }
 
 @media all and (max-width: 726px){
   #projects {
-    height: 220vh;
+    height: 1400px;
+  }
+  #contactme {
+    height: 500px;
   }
 }
 
