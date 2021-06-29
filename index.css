@@ -275,7 +275,7 @@ a {
 
 @media all and (max-width: 560px){
   #aboutme {
-    height: 200%;
+    height: 100%;
   }
 }
 
