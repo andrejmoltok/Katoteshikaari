@@ -249,6 +249,7 @@ a {
 #footer p {
   padding: 0 10px;
 }
+
 @media all and (max-width: 1082px){
   #projects {
     height: 1200px;
@@ -371,7 +372,7 @@ a {
   }
 }
 
-@media screen and (max-width: 322px){
+@media screen and (max-width: 333px){
   nav {
     align-items: center;
     justify-content: space-between;
