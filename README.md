@@ -1,6 +1,6 @@
 # MyFCC_ResponsiveWebDesignFinalProblemSolutions
 
-*You can find me online on Discord [Codewars](https://discord.gg/rvMDH9QCqV), [r/CodingHelp](https://discord.gg/x5tcVgpXew) and [Keep On Coding](https://discord.gg/gH5vsUfj5y).
+*You can find me online on Discord [Codewars](https://discord.gg/rvMDH9QCqV).....
 
 There are 5 final problems to be solved on FCC in the category of ***"Responsive Web Design"***, these solutions -mine- can be found here.
 
