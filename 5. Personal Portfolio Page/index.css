@@ -20,13 +20,14 @@ nav {
   float: right;
   border: 2px solid rgba(17,51,85,1);
   margin: 0px 0px 0px 0px;
-  padding: 15px 15px 15px 15px;
+  padding: 0px 15px 0px 15px;
   width: 100%;
   background-color: #fff;
 }
 
 nav > a {
-  padding: 15px 10px 15px 10px;
+  padding: 30px 10px 30px 10px;
+  height: 85px;
   text-decoration: none;
   color: rgba(17,51,85,1);
   font-weight: bold;
@@ -43,10 +44,24 @@ nav > a:hover {
 }
 
 #welcome-section {
-  height: 100vh;
+  height: 950px;
   margin: 0 0;
   text-align: center;
   padding-top: 180px;
+}
+
+#welcome-section > h1,h6 {
+  color: white;
+  font-size: 72px;
+}
+
+#about {
+  margin: auto auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 550px;
+  font-size: 18px;
 }
 
 img.face {
@@ -92,7 +107,7 @@ h6 {
 #aboutme {
   text-align: center;
   margin: auto auto;
-  height: 100vh;
+  height: 950px;
   padding-top: 100px;
   font-weight: 600;
 }
@@ -110,7 +125,7 @@ a {
 #projects {
   text-align: center;
   margin: auto auto;
-  height: 1200px;
+  height: 950px;
   padding-top: 100px;
   font-weight: 600;
   background-color: rgba(17,51,85,1);
@@ -260,6 +275,9 @@ a {
   #welcome-section{
     padding-top: 210px;
   }
+  #projects {
+    height: 1200px;
+  }
   #contactme {
     height: 400px;
   }
@@ -275,8 +293,11 @@ a {
   #contactme {
     height: 500px;
   }
-   #aboutme {
-    height: 200%;
+  #aboutme {
+    height: 220%;
+  }
+  #about {
+    font-size: 28px;
   }
 }
 
@@ -380,7 +401,7 @@ a {
   #aboutme {
     height: 1100px;
   }
-  #contactme i {
+  i {
     visibility: hidden;
     position: absolute;
     left: -999em;
